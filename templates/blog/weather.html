@@ -1,0 +1,22 @@
+{% extends 'blog/base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    Погода
+{% endblock %}
+
+{% block content %}
+    <h1>Погода в Челябинске</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Сейчас: {{ weather.value }}°C</h2>
+                <h3>{{ weather.description }}</h3>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-responsive img-circle" src="{% static 'blog/images/og_image.png' %}">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.news-post{
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.news-meta{
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.news-text{
+  font-size: 16px;
+  font-family: Calibri, sans-serif;
+}
+
